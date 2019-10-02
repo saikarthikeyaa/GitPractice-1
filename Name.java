@@ -55,7 +55,7 @@ public class Name {
     }
 
     public String getSuffixProfessional() {
-      return professional;
+      return this.professional;
     }
 
     public String getSuffixGenerational() {

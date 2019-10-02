@@ -34,8 +34,13 @@ public class Name {
         /* return Name's title */
     }
 
+    /**
+     * This method will output the first name of the name
+     * @author Anthony Russell, Dillon Furey, Eric Miers, Andrew McNeill
+     * @return first String containing the first name
+     */
     public String getFirst() {
-        /* return Name's first name */
+        return first;
     }
 
     public String getMiddle() {

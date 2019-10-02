@@ -1,4 +1,4 @@
-import java.util.Date;
+	import java.util.Date;
 
 public class Name {
     private String title;
@@ -39,6 +39,7 @@ public class Name {
     }
 
     public String getMiddle() {
+		return this.middle;
         /* return Name's middle name */
     }
 

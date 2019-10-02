@@ -31,27 +31,27 @@ public class Name {
     }
 
     public String getTitle() {
-        return title;
+        
     }
 
     public String getFirst() {
-        return first;
+        
     }
 
     public String getMiddle() {
-        return middle;
+        
     }
 
     public String getSurname() {
-        return surname;
+        
     }
 
     public String getSurnameParent1() {
-        return surnameParent1;
+        
     }
 
     public String getSurnameParent2() {
-        return surnameParent2;
+        
     }
 
     public String getSuffixProfessional() {
@@ -59,6 +59,6 @@ public class Name {
     }
 
     public String getSuffixGenerational() {
-    	return suffixGenerational;
+    	
     }
 }

@@ -31,7 +31,7 @@ public class Name {
     }
 
     public String getTitle() {
-        return this.title;
+        /* return title */
     }
 
     public String getFirst() {
@@ -55,7 +55,7 @@ public class Name {
     }
 
     public String getSuffixProfessional() {
-    	/* return Name's professional suffix */
+      return professional;
     }
 
     public String getSuffixGenerational() {

@@ -35,30 +35,30 @@ public class Name {
     }
 
     public String getFirst() {
-        return this.first;
+        /* return Name's first name */
     }
 
     public String getMiddle() {
-        return this.middle;
+        /* return Name's middle name */
     }
 
     public String getSurname() {
-        return this.surname;
+        /* return Name's last name */
     }
 
     public String getSurnameParent1() {
-        return this.surnameParent1
+        /* return parent1's last name */
     }
 
     public String getSurnameParent2() {
-        return this.surnameParent2;
+        /* return parent2's last name */
     }
 
     public String getSuffixProfessional() {
-    	return this.professional;
+    	/* return Name's professional suffix */
     }
 
     public String getSuffixGenerational() {
-        return this.generational;
+        /* return Name's generational suffix */
     }
 }

@@ -1,4 +1,4 @@
-import java.util.Date;
+	import java.util.Date;
 
 public class Name {
     private String title;
@@ -31,19 +31,31 @@ public class Name {
     }
 
     public String getTitle() {
-        
+
+
+        return title;
+
+
     }
 
+    /**
+     * This method will output the first name of the name
+     * @author Anthony Russell, Dillon Furey, Eric Miers, Andrew McNeill
+     * @return first String containing the first name
+     */
     public String getFirst() {
-        
+
+        return first;
     }
 
     public String getMiddle() {
-        
+		return this.middle;
+        /* return Name's middle name */
     }
 
     public String getSurname() {
-        
+        /* return Name's last name */
+		return surname;
     }
 
     public String getSurnameParent1() {
@@ -55,10 +67,14 @@ public class Name {
     }
 
     public String getSuffixProfessional() {
+
     	return suffixProfessional;
     }
 
+
+
     public String getSuffixGenerational() {
-    	
+        return this.suffixGenerational;
+
     }
 }

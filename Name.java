@@ -32,7 +32,9 @@ public class Name {
 
     public String getTitle() {
 
+
         return title;
+
 
     }
 
@@ -42,6 +44,7 @@ public class Name {
      * @return first String containing the first name
      */
     public String getFirst() {
+
         return first;
     }
 
@@ -56,18 +59,22 @@ public class Name {
     }
 
     public String getSurnameParent1() {
-        /* return parent1's last name */
+        
     }
 
     public String getSurnameParent2() {
-        /* return parent2's last name */
+        
     }
 
     public String getSuffixProfessional() {
-      return this.professional;
+
+    	return suffixProfessional;
     }
+
+
 
     public String getSuffixGenerational() {
         return this.suffixGenerational;
+
     }
 }

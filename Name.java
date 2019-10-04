@@ -67,7 +67,6 @@ public class Name {
     }
 
     public String getSuffixProfessional() {
-
     	return suffixProfessional;
     }
 
